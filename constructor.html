@@ -1,0 +1,15 @@
+<html>
+<body>
+    <h2>JS object constructor</h2>
+    <o id="demo"></p>
+        <script>
+            function person(first,last,age){
+                this.firstName=first;
+                this.lastName=last;
+                this.age=age;
+            }
+            const myFather=new person("ABC","XYZ",50);
+            document.getElementById("demo").innerHTML="My father name is"+myFather.firstName+"age"+myFather.age+".";
+            </script>
+            </body>
+            </html>
